@@ -1,3 +1,5 @@
+import CandidatesModule from "@/components/CandidatesModule";
+import OrganizationsModule from "@/components/OrganizationsModule";
 import EventsModule from "@/components/EventsModule";
 
 export default function Home() {
@@ -9,6 +11,8 @@ export default function Home() {
           <p className="text-gray-600">Your platform for advocacy and campaign management.</p>
         </div>
       </div>
+      <CandidatesModule />
+      <OrganizationsModule />
       <EventsModule />
     </>
   );
